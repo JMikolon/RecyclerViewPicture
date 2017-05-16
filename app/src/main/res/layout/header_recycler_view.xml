@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/header_recycler_view_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Finde deinen Arzt"
+        android:background="@drawable/search_bar_drawable"
+        android:layout_margin="10dp"
+        android:drawableStart="@mipmap/ic_search_bar"
+        android:drawableLeft="@mipmap/ic_search_bar"
+        />
+
+</FrameLayout>
